@@ -1,5 +1,5 @@
 ! /bin/bash
   
-if ! [ -d chaperootodo_client ]; then
-   git clone https://gitlab.com/qacdevops/chaperootodo_client.git
+if ! [ -d APItask ]; then
+   git clone https://github.com/Chris-burd91/APItask.git
 fi

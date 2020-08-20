@@ -9,6 +9,8 @@ pipeline{
             stage('Install docker & docker compose'){
                 steps{
                     sh "./scripts/docker-installs.sh"
+                    sh "sudo usermod -aG docker jenkins"
+                    sh "newgrp docker"
                 }
             }
             stage('Deploy application'){
