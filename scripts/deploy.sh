@@ -1,4 +1,3 @@
-. /home/jenkins/.profile
   
 cd APItask
 
